@@ -45,14 +45,39 @@
      [_]
     -->
     <div class="container-fluid">
+      <div class="bg-black d-flex justify-content-center my-5">
+        <h1><i>Happy Holidays Everyone</i></h1>
+        <p>May your wishes all come true this season</p>
+      </div>
       <div class="player-wrapper">
         <div id="player_id"></div>
       </div>
+      <div class="d-flex justify-content-center">
+        <img
+          id="lights"
+          src="/Christmas-lights-christmas-light-clipart-2.png"
+          alt="String of Christmas lights"
+        />
+      </div>
     </div>
     <style>
+      .bg-black {
+        background-color: #000;
+      }
+      body {
+        color: #ff0000;
+        background-color: #000;
+        background-image: url("/1465890.jpg");
+      }
       /* Change the accent color */
       #player_id {
         --op-accent-color: red;
+      }
+
+      #lights {
+        width: 100%;
+        display: block;
+        height: 10vh;
       }
 
       .player-wrapper {
