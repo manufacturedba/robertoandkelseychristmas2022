@@ -1,0 +1,29 @@
+{
+  "name": "robertoandkelseychristmas2022",
+  "version": "0.0.1",
+  "description": "robertoandkelseychristmas2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manufacturedba/robertoandkelseychristmas2022.git"
+  },
+  "keywords": [
+    "christmas",
+    "roberto",
+    "kelsey",
+    "2022"
+  ],
+  "author": "Roberto Rodriguez <manufacturedba@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manufacturedba/robertoandkelseychristmas2022/issues"
+  },
+  "homepage": "https://github.com/manufacturedba/robertoandkelseychristmas2022#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "@hapi/inert": "^7.0.0"
+  }
+}
